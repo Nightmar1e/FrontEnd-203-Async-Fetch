@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agify API Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Lemme guess your age</h1>
+
+  <label for="nameInput">Name:</label>
+  <input type="text" id="nameInput">
+
+  <label for="countrySelect">Country:</label>
+  <select id="countrySelect">
+    <option value="">All</option>
+    <option value="US">United States</option>
+    <option value="GB">United Kingdom</option>
+    <option value="FR">France</option>
+    <option value="DE">Germany</option>
+    <option value="MA">Morocco</option>
+    <option value="AU">Australia</option>
+    <option value="CH">Switzerland</option>
+    <option value="NO">Norway</option>
+    <option value="PT">Portugal</option>
+    <option value="RU">Russia</option>
+    <option value="SA">Saudi Arabia</option>
+
+  </select>
+
+  <button id="fetchButton">Fetch Age</button>
+
+  <div id="results"></div>
+  <script src="script.js"></script>
+
+</body>
+</html>
